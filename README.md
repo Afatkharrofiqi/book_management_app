@@ -1,6 +1,6 @@
 ## Penggunaan
 
-- Cloning repository dengan `git clone {url-repo}`
+- Cloning repository dengan `git clone https://github.com/Afatkharrofiqi/book_management_app.git`
 - Copy `.env.example` menjadi `.env` dan kemudian konfigurasi database 
 - Jalankan `composer install`
 - Jalankan `php artisan key:generate`
