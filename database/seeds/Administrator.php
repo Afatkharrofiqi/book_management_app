@@ -17,7 +17,7 @@ class Administrator extends Seeder
         $administrator->name     = 'Site Administrator';
         $administrator->email    = 'administrator@test.test';
         $administrator->roles    = json_encode(['ADMIN']);
-        $administrator->password = \Hash::make('passsword');
+        $administrator->password = \Hash::make('password');
         $administrator->avatar   = 'saat-ini-tidak-ada-image.png';
         $administrator->address  = 'Pancoran, Jakarta Selatan';
         $administrator->phone    = '0851111111';
